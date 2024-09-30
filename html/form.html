@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=bgcolor="#f05dd0", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="email" name="email" id="email" placeholder="Enter email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Your review</legend>
+            <label for="How did you hear about us">How did you hear about us?</label>
+            <select name="choice" id="choice">
+                <option value="Google">Google</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Facebook">Facebook</option>
+            </select>
+            <br>
+            <label for="Would you like to visit us again">
+                Would you like to visit us again
+            </label>
+            <input type="radio" name="visit" value="Yes">Yes
+            <input type="radio" name="visit" value="No">No
+            <input type="radio" name="visit" value="Maybe">Maybe
+            <br><br>
+            <label for="Comments">Comments</label>
+            <br>
+            <textarea name="comment" id="comment"></textarea>
+            <br>
+            <input type="checkbox" name="signMeup" id="sign-me-up"> Signup me up for emails
+            <br>
+            <br>
+            <button type="submit">Submit review</button>
+        </fieldset>
+    </form>
+</body>
+</html>
