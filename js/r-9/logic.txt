@@ -1,0 +1,25 @@
+Understand this logic
+function add(a, b){
+     var z= a+b;
+      return z; 
+};
+
+function that takes numbers on argument and return thier sum
+
+
+function multiply(a, b, c){
+     var z= a* add(b, c);
+    return z; 
+};
+
+var value= multiply(4,3,6);
+created a function that takes three numbers as argument and store the incoming result in value
+
+console.log("value", value); 
+print the value and the result is 36;
+
+var course="cloud native computing";
+console.log("course", course); // The result is "course : cloud native computing"
+
+console.log("z", z); // The result is error z is not defined
+
