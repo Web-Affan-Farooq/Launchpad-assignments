@@ -1,0 +1,2 @@
+Extract images from parent
+extract mini icons from  section-2 and create new image for section -2
