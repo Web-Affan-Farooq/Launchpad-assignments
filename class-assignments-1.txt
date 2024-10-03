@@ -1,0 +1,1 @@
+cerate a website that have three pages and create atleast one nested page. only module css is applied create a navbar and insert links in it
