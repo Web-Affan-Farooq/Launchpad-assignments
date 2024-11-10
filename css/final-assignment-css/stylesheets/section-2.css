@@ -23,14 +23,12 @@
 .s-2-cards {
     width: 250px;
     height: 350px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
-    /* border-radius: 50%; */
 }
 .s-2-cards > h2 {
     margin: 0;
@@ -41,6 +39,11 @@
     width: 80%;
     height: 55%;
     border-radius: 50%;
-    /* border: 1px solid black; */
-    background: grey;
+    background: white;
+}
+.s-2-card-circle > i {
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: 45px;
 }

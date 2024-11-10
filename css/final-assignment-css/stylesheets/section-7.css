@@ -1,0 +1,28 @@
+.section-7 {
+    width: 100%;
+    text-align: center;
+}
+.section-7 > h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+     text-align: center;
+}
+.s-7-container {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.s-7-child {
+    width: 400px;
+    height: auto;
+    text-align: left;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.s-7-child > h1 {
+    font-size: 25px;
+}

@@ -1,0 +1,33 @@
+.section-4 {
+    width: 100%;
+}
+.section-4 > h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.s-4-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.s-4-child {
+    width: 300px;
+    text-align: center;
+}
+.star {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    background: yellow;
+}
+.star > i {
+    font-size: 80px;
+    position: relative;
+    top: 30px;
+}

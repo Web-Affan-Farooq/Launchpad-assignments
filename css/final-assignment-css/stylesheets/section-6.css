@@ -1,0 +1,35 @@
+.section-6 {
+    width: 100%;
+    text-align: center;
+}
+.section-6 > h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+     text-align: center;
+}
+.s-6-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.s-6-child {
+width: 300px;
+}
+.s-6-child > i {
+    font-size: 60px;
+}
+.s-6-child > h1 {
+    font-size: 20px;
+}
+.number {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background: yellow;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bolder;
+}
